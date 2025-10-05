@@ -1,3 +1,5 @@
+package com.nvcaria.geometry_inheritance_ex.model;
+
 public class SimpleGeometricObject {
     private String color = "white";
     private boolean filled;

@@ -1,3 +1,6 @@
+package com.nvcaria.geometry_inheritance_ex.test;
+import com.nvcaria.geometry_inheritance_ex.model.*;
+
 public class TestCircleRectangle {
     public static void main(String[] args) {
         CircleFromSimpleGeometricObject circle =

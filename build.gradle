@@ -1,0 +1,23 @@
+plugins {
+    id 'application'
+    id 'java'
+}
+
+group = 'com.nvcaria.geometry_inheritance_ex'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+}
+
+application {
+    mainClass = 'com.nvcaria.geometry_inheritance_ex.test.TestCircleRectangle'
+}
+
+tasks.test {
+    useJUnitPlatform()
+}

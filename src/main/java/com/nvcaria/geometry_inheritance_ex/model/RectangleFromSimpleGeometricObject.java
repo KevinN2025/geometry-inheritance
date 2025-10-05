@@ -1,3 +1,5 @@
+package com.nvcaria.geometry_inheritance_ex.model;
+
 public class RectangleFromSimpleGeometricObject
     extends SimpleGeometricObject {
     private double width;
